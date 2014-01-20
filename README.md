@@ -37,7 +37,7 @@ You need to change four variables in the corresponding "eval*.m" , including "me
 
 As both F-measure and overlap score are rely on mean-shift segmentation, you need to ensure segmentations of the dataset are exist in the "data" folder. If exist, you then change the aforementioned four variables before running the script. If not, you need run "ExtractMeanShiftSegmentationMask.m" first to compute mean-shift segmentation. 
 
-##Display result
+##Displaying result
 
 After computing "eval*.m", you can run "draw*.m" to see figures. Keep in mind that you also need to change the four variables in the "draw*.m".
 
