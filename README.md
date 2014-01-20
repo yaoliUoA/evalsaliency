@@ -6,6 +6,8 @@ This toolbox has been utilized to achieve experimental result presented in the f
 
 ##[Xi Li](http://cs.adelaide.edu.au/~xi/Xi_Li.html), [Yao Li](cs.adelaide.edu.au/~yaoli/), [Chunhua Shen](http://cs.adelaide.edu.au/~chhshen/), [Anthony Dick](http://cs.adelaide.edu.au/~ard/), [Anton van den Hengel](http://cs.adelaide.edu.au/~hengel/). Contextual Hypergraph Modeling for Salient Object Detection, ICCV 2013. [PDF](http://cs.adelaide.edu.au/~yaoli/wp-content/projects/HypergraphSaliency/Paper/iccv13_saliency.pdf) | [Project page](http://cs.adelaide.edu.au/~yaoli/?page_id=149). 
 
+![](http://cs.adelaide.edu.au/~yaoli/wp-content/projects/HypergraphSaliency/illustrative/global_saliency.png)
+
 Please cite this paper if you use this toolbox in your research. 
 
 MATLAB Quick Start Guide
