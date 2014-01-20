@@ -14,7 +14,7 @@ To get started, please ensure that MATLAB has been installed and then download t
 
 ##Evaluation criteria included
 
-The current version of the evalsaliency toolbox contains five evaluation criteria used in salient object detection algorithms, including precision-recall curve, receiver operating characteristic curve, f-measure, mean absolute error and overlap ratio. 
+The current version of the evalsaliency toolbox contains five evaluation criteria used in salient object detection algorithms, including precision-recall curve (PR curve), receiver operating characteristic curve (ROC curve), F-measure, mean absolute error (MAE) and VOC overlap score. 
 
 ##Folders and files
 
@@ -27,13 +27,13 @@ The "result" folder contains five subfolders, corresponding to result of five ev
 "eval*.m" are Matlab scripts for computing the five evaluation criteria. 
 "draw*.m" are Matlab scripts for displaying result. 
 
-##Computing precision-recall curve, receiver operating characteristic curve and mean absolute error
+##Computing PR curve, ROC curve and MAE
 
 You need to change four variables in the corresponding "eval*.m" , including "method", "dataset", "resultpath" and "truthpath" and then run the script. 
 
-##Computing f-measure and overlap ratio
+##Computing F-measure and overlap score
 
-As both f-measure and overlap ratio are rely on mean-shift segmentation, you need to ensure segmentations of the dataset are exist in the "data" folder. If exist, you then change the aforementioned four variables before running the script. If not, you need run "ExtractMeanShiftSegmentationMask.m" first to compute mean-shift segmentation. 
+As both F-measure and overlap score are rely on mean-shift segmentation, you need to ensure segmentations of the dataset are exist in the "data" folder. If exist, you then change the aforementioned four variables before running the script. If not, you need run "ExtractMeanShiftSegmentationMask.m" first to compute mean-shift segmentation. 
 
 ##Display result
 
